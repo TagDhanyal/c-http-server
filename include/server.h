@@ -10,13 +10,10 @@
 #define MAX_CLIENTS 10
 #define PORT 8081 
 
-exert struct sockaddr_in serverAddr;
-
 typedef struct
 {
   char *header[256];
   int error;
-}response;
-
+} response;
 
 #endif /* SERVER_H */
